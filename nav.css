@@ -1,0 +1,22 @@
+nav a {
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* A call-to-action */
+a.call-to-action-button {
+  padding: 0.5rem;
+  text-decoration: none;
+  background-color: yellow;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: text-decoration 0.15s, background-color 0.25s, color 0.15s;
+}
+
+a.call-to-action-button:hover {
+  /* @todo - button hover */
+  /* font-weight: bold; */
+  text-decoration: underline;
+  background-color: orange;
+  color: yellow;
+}
