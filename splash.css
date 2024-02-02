@@ -1,0 +1,86 @@
+@media (min-width: 0px) {
+  body {
+    padding: 1rem;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Noto Sans Display', sans-serif;
+  }
+
+  /* Header */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem 0; */
+    background: lightgray;
+  }
+
+
+  nav a {
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+
+  /* A call-to-action */
+  a.call-to-action-button {
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: text-decoration 0.15s, background-color 0.25s, color 0.15s;
+  }
+
+  a.call-to-action-button:hover {
+    /* @todo - button hover */
+    /* font-weight: bold; */
+    text-decoration: underline;
+    background-color: orange;
+    color: yellow;
+  }
+
+  @keyframes slidein {
+    0% {
+      transform: translateX(0);
+    }
+
+    50% {
+      transform: translateX(125%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  /* Splash */
+  .splash {
+    margin: 1rem 0;
+    background: url('assets/humberto-portillo-YAOIz5tuv-Y-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 6rem);
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    border: 0.25rem dashed black;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+  }
+
+  .splash>h1 {
+    animation: slidein 2s;
+    margin: 0.1em;
+  }
+}
+
+}
+}
+
+@media (min-width: 768px) {}

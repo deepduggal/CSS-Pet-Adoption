@@ -1,6 +1,16 @@
 body {
   padding: 1rem;
   margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans Display', sans-serif;
 }
 
 /* Header */
@@ -9,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   /* padding: 1rem 0; */
+  background: lightgray;
 }
 
 
@@ -41,19 +52,6 @@ a.call-to-action-button:hover {
 
 main section {
   margin-bottom: 2rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Noto Sans Display', sans-serif;
-}
-
-p {
-  font-family: 'Noto Sans', sans-serif;
 }
 
 img {
