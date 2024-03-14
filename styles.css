@@ -77,12 +77,23 @@ img {
   height: 25vh;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .gallery-card>img {
   position: absolute;
   z-index: -1;
   height: 100%;
   width: 100%;
   /* object-fit: cover; */
+  animation: fadeIn 2s ease-in-out;
 }
 
 .gallery-card>p {
