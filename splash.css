@@ -19,7 +19,7 @@
   header {
     display: flex;
     justify-content: space-between;
-    /* padding: 1rem 0; */
+    padding: 1rem 0.5rem;
     background: lightgray;
   }
 
@@ -66,7 +66,8 @@
     margin: 1rem 0;
     background: url('assets/humberto-portillo-YAOIz5tuv-Y-unsplash.jpg') no-repeat center center;
     background-size: cover;
-    height: calc(100vh - 6rem);
+    min-height: calc(100vh - 6rem);
+    padding: 1em;
     color: white;
     font-style: italic;
     font-size: 2rem;
@@ -78,9 +79,6 @@
     animation: slidein 2s;
     margin: 0.1em;
   }
-}
-
-}
 }
 
 @media (min-width: 768px) {}
